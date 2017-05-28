@@ -1,5 +1,3 @@
-const assert = require('assert');
-
 function makeTypedError(args) {
     return (class extends Error {
         constructor(message) {
