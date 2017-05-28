@@ -7,8 +7,8 @@ const makeTypedError = require('typed-error-factory');
 const CustomError = makeTypedError({
     name: 'CustomError',
     message: 'InitialMessage', // default message
-    extra: true
-});             // extra properties 
+    extra: true                // extra properties 
+});            
 
 const a = new CustomError('MessageOverride');
 
